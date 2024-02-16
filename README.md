@@ -11,3 +11,6 @@ To run the project
 or
 
 ```docker-compose up -d```
+
+## Tips
+Modify in app.php on config folder where is cipher to 'cipher' => 'aes-128-cbc',
