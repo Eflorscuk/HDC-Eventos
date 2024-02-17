@@ -1,5 +1,9 @@
 # Goals
-This project aims to explore the use of PHP and Laravel with SSR principles.
+This project aims to explore the use of PHP and Laravel with SSR principles using Blade Template.
+
+## Commands 
+To start the project
+```php artisan serve```
 
 ## Docker commands
 To build the project
