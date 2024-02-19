@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layout.main')
 
-        <title>Laravel</title>
-        <link rel="stylesheet" href="/css/styles.css">
-    </head>
-    <body>
-        <div>
-            <h1>Teste</h1>
-        </div>
-    </body>
-</html>
+@section('title', 'HDC Events')
+    
+@section('content')
+<h1>Teste Main</h1>
+@endsection
