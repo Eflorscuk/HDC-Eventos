@@ -22,5 +22,12 @@ Route::get('/contact', function() {
 });
 
 Route::get('/products', function() {
-    return view('products');
+
+    $busca = request('search');
+
+    return view('products', ['busca' => $busca]);
+});
+
+Route::get('/products_test/{id}', function($id = 0) {
+    return view('product', ['id' => $id]);
 });
